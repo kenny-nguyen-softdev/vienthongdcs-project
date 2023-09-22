@@ -1,0 +1,113 @@
+.content img {
+    display: block;
+  }
+  form.form-top {
+    padding: 40px 20px;
+    /* background: #eee; */
+    position: relative;
+    /* height: 350px; */
+  }
+  .form-top .tx02 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+    background: linear-gradient(
+      to right,
+      #edcf89,
+      #ddb968,
+      #f7e1a8,
+      #f0d697,
+      #eccd85,
+      #d6d014
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .box-form-register {
+    background: #fff;
+    border-radius: 15px;
+    padding: 40px 30px;
+    margin-top: 25px;
+    box-shadow: 0 8px 20px -6px black;
+    width: 500px;
+    margin: 0 auto;
+    /* position: absolute; */
+    /* left: calc(50% - 225px); */
+    /* top: -165px; */
+  }
+  
+  .form-group {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  input.form-controls {
+    height: 38px;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #efefef;
+    color: #5d5d5d;
+    background: #efefef;
+  }
+  
+  select.form-controls {
+    width: 100%;
+    height: 38px;
+    padding: 8px 5px;
+    border-radius: 5px;
+    border: 1px solid #efefef;
+    color: #5d5d5d;
+    background: #efefef;
+  }
+  
+  .formTopLeft {
+    width: 320px;
+    margin: 0 auto;
+    font-family: tahoma;
+  }
+  
+  :focus {
+    outline: unset !important;
+  }
+  
+  .btn-register-top {
+    
+    border: none;
+    padding: 10px 20px !important;
+    color: #fff;
+    border-radius: 5px !important;
+    width: 100%;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    cursor: pointer !important;
+    margin-top: 10px !important;
+    margin-bottom: 5px !important;
+    line-height: unset !important;
+  }
+  
+  .btn-register-top:hover {
+    opacity: 0.9;
+  }
+  .survey p{
+      width: 100%;
+  }
+  .formTopLeft .txt.tx02.cen{
+    width: 100%;
+  }
+  .cen{
+    text-align: center;
+  }
+  @media (max-width:576px) {
+      .box-form-register{
+          width: 100%;
+      }
+      .formTopLeft{
+        width: 100%;
+      }
+      
+  }
+  
